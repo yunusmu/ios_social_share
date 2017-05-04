@@ -13,6 +13,7 @@
 		7C8F628C1EBBAA0800EF74B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F628A1EBBAA0800EF74B6 /* Main.storyboard */; };
 		7C8F628E1EBBAA0800EF74B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F628D1EBBAA0800EF74B6 /* Assets.xcassets */; };
 		7C8F62911EBBAA0800EF74B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F628F1EBBAA0800EF74B6 /* LaunchScreen.storyboard */; };
+		7C8F629A1EBBAA3F00EF74B6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8F62991EBBAA3F00EF74B6 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7C8F628D1EBBAA0800EF74B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C8F62901EBBAA0800EF74B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C8F62921EBBAA0800EF74B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C8F62991EBBAA3F00EF74B6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C8F629A1EBBAA3F00EF74B6 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				7C8F62801EBBAA0800EF74B6 /* SocialShare */,
 				7C8F627F1EBBAA0800EF74B6 /* Products */,
+				7C8F62981EBBAA3F00EF74B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +81,14 @@
 				7C8F62821EBBAA0800EF74B6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C8F62981EBBAA3F00EF74B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C8F62991EBBAA3F00EF74B6 /* Social.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
